@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/auth/', include('gameexp_auth.urls')),
+    path('api/profiles/', include('profiles.urls')),
 ]

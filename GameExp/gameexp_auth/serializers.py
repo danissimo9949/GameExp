@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from .models import GameExpUser
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -14,5 +13,4 @@ class UserSerializer(serializers.ModelSerializer):
             email=validated_data['email'],
             password=validated_data['password'],
         )
-        GameExpUser.objects.create(user=user)
         return user
