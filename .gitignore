@@ -3,5 +3,3 @@ venv
 *.pyc
 *cache*
 __pycache__
-
-tests.py
