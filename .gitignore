@@ -1,5 +1,6 @@
 venv
 
-.pyc
-cache
-pycache
+*.pyc
+*cache*
+__pycache__
+
