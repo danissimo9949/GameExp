@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'gameexp_auth',
     'profiles',
+    'main_app',
 ]
 
 MIDDLEWARE = [

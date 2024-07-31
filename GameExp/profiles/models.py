@@ -18,7 +18,6 @@ class GameExpUser(models.Model):
     def set_display_name(self):
         return self.user.username
         
-
     def generate_twitter_url(self):
         if self.twitter_login:
             return f'https://x.com/{self.twitter_login}'
